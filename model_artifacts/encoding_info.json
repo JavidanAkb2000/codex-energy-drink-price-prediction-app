@@ -1,0 +1,59 @@
+{
+    "ordinal_encoded_cols": [
+        "age_group",
+        "health_concerns",
+        "preferable_consumption_size"
+    ],
+    "cols_with_encoded_suffix": [
+        "consume_frequency_weekly_encoded",
+        "awareness_of_other_brands_encoded",
+        "zone_encoded",
+        "income_levels_encoded"
+    ],
+    "exclude_cols": [
+        "age_group",
+        "health_concerns",
+        "preferable_consumption_size",
+        "consume_frequency_weekly_encoded",
+        "awareness_of_other_brands_encoded",
+        "zone_encoded",
+        "income_levels_encoded"
+    ],
+    "cols_to_onehot": [
+        "gender",
+        "occupation",
+        "current_brand",
+        "reasons_for_choosing_brands",
+        "flavor_preference",
+        "purchase_channel",
+        "packaging_preference",
+        "typical_consumption_situations"
+    ],
+    "final_feature_list": [
+        "preferable_consumption_size",
+        "health_concerns",
+        "age_group",
+        "consume_frequency_weekly_encoded",
+        "awareness_of_other_brands_encoded",
+        "cf_ab_score",
+        "zone_encoded",
+        "income_levels_encoded",
+        "zas_score",
+        "bsi",
+        "loyalty_score",
+        "gender_M",
+        "occupation_Retired",
+        "occupation_Student",
+        "occupation_Working Professional",
+        "current_brand_Newcomer",
+        "reasons_for_choosing_brands_Brand Reputation",
+        "reasons_for_choosing_brands_Price",
+        "reasons_for_choosing_brands_Quality",
+        "flavor_preference_Traditional",
+        "purchase_channel_Retail Store",
+        "packaging_preference_Premium",
+        "packaging_preference_Simple",
+        "typical_consumption_situations_Casual (eg. At home)",
+        "typical_consumption_situations_Social (eg. Parties)"
+    ]
+}

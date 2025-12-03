@@ -1,0 +1,36 @@
+{
+    "model_type": "lightgbm",
+    "training_timestamp": "2025-12-02T19:49:17.159522",
+    "python_version": "3.11",
+    "libraries": {
+        "lightgbm": "4.6.0",
+        "sklearn": "1.7.1",
+        "pandas": "2.3.2"
+    },
+    "target_classes": [
+        "100-150",
+        "150-200",
+        "200-250",
+        "50-100"
+    ],
+    "ordinal_categories": [
+        [
+            "18-25",
+            "26-35",
+            "36-45",
+            "46-55",
+            "56-70"
+        ],
+        [
+            "Low (Not very concerned)",
+            "Medium (Moderately health-conscious)",
+            "High (Very health-conscious)"
+        ],
+        [
+            "Small (250 ml)",
+            "Medium (500 ml)",
+            "Large (1 L)"
+        ]
+    ],
+    "feature_count": 25
+}

@@ -1,0 +1,52 @@
+# -----------------------------
+#  PYTHON / VENV
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# -----------------------------
+#  DATA FILES (OPTIONAL)
+# -----------------------------
+# If you want to ignore big datasets locally but keep model files:
+# *.csv
+# *.xlsx
+# *.json  # (KEEP commented, because you WANT encoding_info.json etc.)
+
+# -----------------------------
+#  IDE / EDITOR FILES
+# -----------------------------
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# -----------------------------
+#  SYSTEM FILES
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+#  LOGS
+# -----------------------------
+logs/
+*.log
+
+# -----------------------------
+#  CACHE / TEMP
+# -----------------------------
+cache/
+tmp/
+temp/
