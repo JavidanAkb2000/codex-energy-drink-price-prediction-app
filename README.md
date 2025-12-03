@@ -1,5 +1,8 @@
 # 🥤 **Codex Energy Drink Price Prediction App**
 
+# 🖥️ **Streamlit URL**
+https://codex-energy-drink-pricerange-prediction.streamlit.app/
+
 Predict the optimal **price range** for Codex Energy Drink using consumer behavior, demographics, and brand preference data — powered by **LightGBM**, **XGBoost**, and **Random Forest**.
 
 ---
